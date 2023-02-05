@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f1f1;
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+    font-size:40px;
+    background-color: #FFF;
+    margin: 10px 50px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+article {
+    background-color: #FFF;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+aside section {
+    background-color: #FFF;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+ aside section a {
+     display: block;
+     margin-top: 10px;
+ }
+
+footer {
+    background-color: #FFF;
+    padding: 20px;
+    text-align: center;
+    margin: 10px 50px;
+}
+
+footer a {
+    margin-left: 30px;
+}
