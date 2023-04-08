@@ -1,15 +1,29 @@
-div {
-
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-p{
+div, p, span, a {
+    height: 40px;
+    width: 150px;
+    display: inline-block;
+    background-color: #e74c3c;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
 
+p {
+
+    background-color: #9b59b6;
 }
 
 span {
-
+    background-color: #3498db;
+    
 }
 
-a{
-  
+a {
+  background-color: #2ecc71;
 }
